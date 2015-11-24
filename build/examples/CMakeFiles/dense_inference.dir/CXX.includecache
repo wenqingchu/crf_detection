@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/densecrf.h
+vector
+-
+cstdlib
+-
+
+/home/odyssey/project/densecrf/examples/dense_inference.cpp
+densecrf.h
+/home/odyssey/project/densecrf/examples/densecrf.h
+cstdio
+-
+cmath
+-
+util.h
+/home/odyssey/project/densecrf/examples/util.h
+
+/home/odyssey/project/densecrf/examples/util.cpp
+util.h
+/home/odyssey/project/densecrf/examples/util.h
+cstdio
+-
+cstring
+-
+
+/home/odyssey/project/densecrf/examples/util.h
+

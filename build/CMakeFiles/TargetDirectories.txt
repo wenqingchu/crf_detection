@@ -1,0 +1,2 @@
+/home/odyssey/project/densecrf/build/examples/CMakeFiles/dense_inference.dir
+/home/odyssey/project/densecrf/build/src/CMakeFiles/densecrf.dir
