@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odyssey/project/densecrf
+CMAKE_SOURCE_DIR = /home/odyssey/project/crf_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odyssey/project/densecrf/build
+CMAKE_BINARY_DIR = /home/odyssey/project/crf_detection/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/odyssey/project/densecrf/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/densecrf/build/CMakeFiles /home/odyssey/project/densecrf/build/examples/CMakeFiles/progress.marks
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/densecrf/build/CMakeFiles 0
+	cd /home/odyssey/project/crf_detection/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/crf_detection/build/CMakeFiles /home/odyssey/project/crf_detection/build/examples/CMakeFiles/progress.marks
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/crf_detection/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/odyssey/project/densecrf/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/odyssey/project/crf_detection/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/dense_inference.dir/rule:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/dense_inference.dir/rule
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/dense_inference.dir/rule
 .PHONY : examples/CMakeFiles/dense_inference.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ dense_inference: examples/CMakeFiles/dense_inference.dir/rule
 
 # fast build rule for target.
 dense_inference/fast:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/build
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/build
 .PHONY : dense_inference/fast
 
 dense_inference.o: dense_inference.cpp.o
@@ -120,7 +120,7 @@ dense_inference.o: dense_inference.cpp.o
 
 # target to build an object file
 dense_inference.cpp.o:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o
 .PHONY : dense_inference.cpp.o
 
 dense_inference.i: dense_inference.cpp.i
@@ -128,7 +128,7 @@ dense_inference.i: dense_inference.cpp.i
 
 # target to preprocess a source file
 dense_inference.cpp.i:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.i
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.i
 .PHONY : dense_inference.cpp.i
 
 dense_inference.s: dense_inference.cpp.s
@@ -136,7 +136,7 @@ dense_inference.s: dense_inference.cpp.s
 
 # target to generate assembly for a file
 dense_inference.cpp.s:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.s
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.s
 .PHONY : dense_inference.cpp.s
 
 util.o: util.cpp.o
@@ -144,7 +144,7 @@ util.o: util.cpp.o
 
 # target to build an object file
 util.cpp.o:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/util.cpp.o
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/util.cpp.o
 .PHONY : util.cpp.o
 
 util.i: util.cpp.i
@@ -152,7 +152,7 @@ util.i: util.cpp.i
 
 # target to preprocess a source file
 util.cpp.i:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/util.cpp.i
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/util.cpp.i
 .PHONY : util.cpp.i
 
 util.s: util.cpp.s
@@ -160,7 +160,7 @@ util.s: util.cpp.s
 
 # target to generate assembly for a file
 util.cpp.s:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/util.cpp.s
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/util.cpp.s
 .PHONY : util.cpp.s
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/odyssey/project/densecrf/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/odyssey/project/crf_detection/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odyssey/project/densecrf
+CMAKE_SOURCE_DIR = /home/odyssey/project/crf_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odyssey/project/densecrf/build
+CMAKE_BINARY_DIR = /home/odyssey/project/crf_detection/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/odyssey/project/densecrf/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/densecrf/build/CMakeFiles /home/odyssey/project/densecrf/build/src/CMakeFiles/progress.marks
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/densecrf/build/CMakeFiles 0
+	cd /home/odyssey/project/crf_detection/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/crf_detection/build/CMakeFiles /home/odyssey/project/crf_detection/build/src/CMakeFiles/progress.marks
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/crf_detection/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/odyssey/project/densecrf/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/odyssey/project/crf_detection/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/densecrf.dir/rule:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/densecrf.dir/rule
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/densecrf.dir/rule
 .PHONY : src/CMakeFiles/densecrf.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ densecrf: src/CMakeFiles/densecrf.dir/rule
 
 # fast build rule for target.
 densecrf/fast:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/build
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/build
 .PHONY : densecrf/fast
 
 bipartitedensecrf.o: bipartitedensecrf.cpp.o
@@ -120,7 +120,7 @@ bipartitedensecrf.o: bipartitedensecrf.cpp.o
 
 # target to build an object file
 bipartitedensecrf.cpp.o:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o
 .PHONY : bipartitedensecrf.cpp.o
 
 bipartitedensecrf.i: bipartitedensecrf.cpp.i
@@ -128,7 +128,7 @@ bipartitedensecrf.i: bipartitedensecrf.cpp.i
 
 # target to preprocess a source file
 bipartitedensecrf.cpp.i:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.i
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.i
 .PHONY : bipartitedensecrf.cpp.i
 
 bipartitedensecrf.s: bipartitedensecrf.cpp.s
@@ -136,7 +136,7 @@ bipartitedensecrf.s: bipartitedensecrf.cpp.s
 
 # target to generate assembly for a file
 bipartitedensecrf.cpp.s:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.s
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.s
 .PHONY : bipartitedensecrf.cpp.s
 
 densecrf.o: densecrf.cpp.o
@@ -144,7 +144,7 @@ densecrf.o: densecrf.cpp.o
 
 # target to build an object file
 densecrf.cpp.o:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/densecrf.cpp.o
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/densecrf.cpp.o
 .PHONY : densecrf.cpp.o
 
 densecrf.i: densecrf.cpp.i
@@ -152,7 +152,7 @@ densecrf.i: densecrf.cpp.i
 
 # target to preprocess a source file
 densecrf.cpp.i:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/densecrf.cpp.i
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/densecrf.cpp.i
 .PHONY : densecrf.cpp.i
 
 densecrf.s: densecrf.cpp.s
@@ -160,7 +160,7 @@ densecrf.s: densecrf.cpp.s
 
 # target to generate assembly for a file
 densecrf.cpp.s:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/densecrf.cpp.s
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/densecrf.cpp.s
 .PHONY : densecrf.cpp.s
 
 filter.o: filter.cpp.o
@@ -168,7 +168,7 @@ filter.o: filter.cpp.o
 
 # target to build an object file
 filter.cpp.o:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/filter.cpp.o
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/filter.cpp.o
 .PHONY : filter.cpp.o
 
 filter.i: filter.cpp.i
@@ -176,7 +176,7 @@ filter.i: filter.cpp.i
 
 # target to preprocess a source file
 filter.cpp.i:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/filter.cpp.i
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/filter.cpp.i
 .PHONY : filter.cpp.i
 
 filter.s: filter.cpp.s
@@ -184,7 +184,7 @@ filter.s: filter.cpp.s
 
 # target to generate assembly for a file
 filter.cpp.s:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/filter.cpp.s
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/filter.cpp.s
 .PHONY : filter.cpp.s
 
 permutohedral.o: permutohedral.cpp.o
@@ -192,7 +192,7 @@ permutohedral.o: permutohedral.cpp.o
 
 # target to build an object file
 permutohedral.cpp.o:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/permutohedral.cpp.o
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/permutohedral.cpp.o
 .PHONY : permutohedral.cpp.o
 
 permutohedral.i: permutohedral.cpp.i
@@ -200,7 +200,7 @@ permutohedral.i: permutohedral.cpp.i
 
 # target to preprocess a source file
 permutohedral.cpp.i:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/permutohedral.cpp.i
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/permutohedral.cpp.i
 .PHONY : permutohedral.cpp.i
 
 permutohedral.s: permutohedral.cpp.s
@@ -208,7 +208,7 @@ permutohedral.s: permutohedral.cpp.s
 
 # target to generate assembly for a file
 permutohedral.cpp.s:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/permutohedral.cpp.s
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/permutohedral.cpp.s
 .PHONY : permutohedral.cpp.s
 
 util.o: util.cpp.o
@@ -216,7 +216,7 @@ util.o: util.cpp.o
 
 # target to build an object file
 util.cpp.o:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/util.cpp.o
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/util.cpp.o
 .PHONY : util.cpp.o
 
 util.i: util.cpp.i
@@ -224,7 +224,7 @@ util.i: util.cpp.i
 
 # target to preprocess a source file
 util.cpp.i:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/util.cpp.i
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/util.cpp.i
 .PHONY : util.cpp.i
 
 util.s: util.cpp.s
@@ -232,7 +232,7 @@ util.s: util.cpp.s
 
 # target to generate assembly for a file
 util.cpp.s:
-	cd /home/odyssey/project/densecrf/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/util.cpp.s
+	cd /home/odyssey/project/crf_detection/build && $(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/util.cpp.s
 .PHONY : util.cpp.s
 
 # Help Target
@@ -270,6 +270,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/odyssey/project/densecrf/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/odyssey/project/crf_detection/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

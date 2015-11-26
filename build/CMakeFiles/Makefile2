@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odyssey/project/densecrf
+CMAKE_SOURCE_DIR = /home/odyssey/project/crf_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odyssey/project/densecrf/build
+CMAKE_BINARY_DIR = /home/odyssey/project/crf_detection/build
 
 #=============================================================================
 # Directory level rules for directory src
@@ -77,7 +77,7 @@ src/preinstall:
 src/CMakeFiles/densecrf.dir/all:
 	$(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/depend
 	$(MAKE) -f src/CMakeFiles/densecrf.dir/build.make src/CMakeFiles/densecrf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles  3 4 5 6 7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles  3 4 5 6 7
 	@echo "Built target densecrf"
 .PHONY : src/CMakeFiles/densecrf.dir/all
 
@@ -87,9 +87,9 @@ all: src/CMakeFiles/densecrf.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/densecrf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/densecrf/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/crf_detection/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/densecrf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/densecrf/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/crf_detection/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/densecrf.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ examples/preinstall:
 examples/CMakeFiles/dense_inference.dir/all: src/CMakeFiles/densecrf.dir/all
 	$(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/depend
 	$(MAKE) -f examples/CMakeFiles/dense_inference.dir/build.make examples/CMakeFiles/dense_inference.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles  1 2
 	@echo "Built target dense_inference"
 .PHONY : examples/CMakeFiles/dense_inference.dir/all
 
@@ -137,9 +137,9 @@ all: examples/CMakeFiles/dense_inference.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/dense_inference.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/densecrf/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/crf_detection/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/dense_inference.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/densecrf/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/odyssey/project/crf_detection/build/CMakeFiles 0
 .PHONY : examples/CMakeFiles/dense_inference.dir/rule
 
 # Convenience name for target.

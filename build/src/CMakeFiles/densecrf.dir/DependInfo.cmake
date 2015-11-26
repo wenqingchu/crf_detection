@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/odyssey/project/densecrf/src/bipartitedensecrf.cpp" "/home/odyssey/project/densecrf/build/src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o"
-  "/home/odyssey/project/densecrf/src/densecrf.cpp" "/home/odyssey/project/densecrf/build/src/CMakeFiles/densecrf.dir/densecrf.cpp.o"
-  "/home/odyssey/project/densecrf/src/filter.cpp" "/home/odyssey/project/densecrf/build/src/CMakeFiles/densecrf.dir/filter.cpp.o"
-  "/home/odyssey/project/densecrf/src/permutohedral.cpp" "/home/odyssey/project/densecrf/build/src/CMakeFiles/densecrf.dir/permutohedral.cpp.o"
-  "/home/odyssey/project/densecrf/src/util.cpp" "/home/odyssey/project/densecrf/build/src/CMakeFiles/densecrf.dir/util.cpp.o"
+  "/home/odyssey/project/crf_detection/src/bipartitedensecrf.cpp" "/home/odyssey/project/crf_detection/build/src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o"
+  "/home/odyssey/project/crf_detection/src/densecrf.cpp" "/home/odyssey/project/crf_detection/build/src/CMakeFiles/densecrf.dir/densecrf.cpp.o"
+  "/home/odyssey/project/crf_detection/src/filter.cpp" "/home/odyssey/project/crf_detection/build/src/CMakeFiles/densecrf.dir/filter.cpp.o"
+  "/home/odyssey/project/crf_detection/src/permutohedral.cpp" "/home/odyssey/project/crf_detection/build/src/CMakeFiles/densecrf.dir/permutohedral.cpp.o"
+  "/home/odyssey/project/crf_detection/src/util.cpp" "/home/odyssey/project/crf_detection/build/src/CMakeFiles/densecrf.dir/util.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

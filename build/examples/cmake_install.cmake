@@ -1,4 +1,4 @@
-# Install script for directory: /home/odyssey/project/densecrf/examples
+# Install script for directory: /home/odyssey/project/crf_detection/examples
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

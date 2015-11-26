@@ -3,8 +3,8 @@
 
 examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o
  ../include/densecrf.h
- /home/odyssey/project/densecrf/examples/dense_inference.cpp
- /home/odyssey/project/densecrf/examples/util.h
+ /home/odyssey/project/crf_detection/examples/dense_inference.cpp
+ /home/odyssey/project/crf_detection/examples/util.h
 examples/CMakeFiles/dense_inference.dir/util.cpp.o
- /home/odyssey/project/densecrf/examples/util.cpp
- /home/odyssey/project/densecrf/examples/util.h
+ /home/odyssey/project/crf_detection/examples/util.cpp
+ /home/odyssey/project/crf_detection/examples/util.h

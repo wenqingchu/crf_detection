@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odyssey/project/densecrf
+CMAKE_SOURCE_DIR = /home/odyssey/project/crf_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odyssey/project/densecrf/build
+CMAKE_BINARY_DIR = /home/odyssey/project/crf_detection/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/densecrf.dir/depend.make
@@ -54,17 +54,17 @@ include src/CMakeFiles/densecrf.dir/flags.make
 
 src/CMakeFiles/densecrf.dir/util.cpp.o: src/CMakeFiles/densecrf.dir/flags.make
 src/CMakeFiles/densecrf.dir/util.cpp.o: ../src/util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/densecrf.dir/util.cpp.o"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/util.cpp.o -c /home/odyssey/project/densecrf/src/util.cpp
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/util.cpp.o -c /home/odyssey/project/crf_detection/src/util.cpp
 
 src/CMakeFiles/densecrf.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/densecrf.dir/util.cpp.i"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/densecrf/src/util.cpp > CMakeFiles/densecrf.dir/util.cpp.i
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/crf_detection/src/util.cpp > CMakeFiles/densecrf.dir/util.cpp.i
 
 src/CMakeFiles/densecrf.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/densecrf.dir/util.cpp.s"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/densecrf/src/util.cpp -o CMakeFiles/densecrf.dir/util.cpp.s
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/crf_detection/src/util.cpp -o CMakeFiles/densecrf.dir/util.cpp.s
 
 src/CMakeFiles/densecrf.dir/util.cpp.o.requires:
 .PHONY : src/CMakeFiles/densecrf.dir/util.cpp.o.requires
@@ -77,17 +77,17 @@ src/CMakeFiles/densecrf.dir/util.cpp.o.provides.build: src/CMakeFiles/densecrf.d
 
 src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o: src/CMakeFiles/densecrf.dir/flags.make
 src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o: ../src/bipartitedensecrf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o -c /home/odyssey/project/densecrf/src/bipartitedensecrf.cpp
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o -c /home/odyssey/project/crf_detection/src/bipartitedensecrf.cpp
 
 src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.i"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/densecrf/src/bipartitedensecrf.cpp > CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.i
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/crf_detection/src/bipartitedensecrf.cpp > CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.i
 
 src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.s"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/densecrf/src/bipartitedensecrf.cpp -o CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.s
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/crf_detection/src/bipartitedensecrf.cpp -o CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.s
 
 src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o.requires:
 .PHONY : src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o.requires
@@ -100,17 +100,17 @@ src/CMakeFiles/densecrf.dir/bipartitedensecrf.cpp.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/densecrf.dir/permutohedral.cpp.o: src/CMakeFiles/densecrf.dir/flags.make
 src/CMakeFiles/densecrf.dir/permutohedral.cpp.o: ../src/permutohedral.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/densecrf.dir/permutohedral.cpp.o"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/permutohedral.cpp.o -c /home/odyssey/project/densecrf/src/permutohedral.cpp
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/permutohedral.cpp.o -c /home/odyssey/project/crf_detection/src/permutohedral.cpp
 
 src/CMakeFiles/densecrf.dir/permutohedral.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/densecrf.dir/permutohedral.cpp.i"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/densecrf/src/permutohedral.cpp > CMakeFiles/densecrf.dir/permutohedral.cpp.i
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/crf_detection/src/permutohedral.cpp > CMakeFiles/densecrf.dir/permutohedral.cpp.i
 
 src/CMakeFiles/densecrf.dir/permutohedral.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/densecrf.dir/permutohedral.cpp.s"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/densecrf/src/permutohedral.cpp -o CMakeFiles/densecrf.dir/permutohedral.cpp.s
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/crf_detection/src/permutohedral.cpp -o CMakeFiles/densecrf.dir/permutohedral.cpp.s
 
 src/CMakeFiles/densecrf.dir/permutohedral.cpp.o.requires:
 .PHONY : src/CMakeFiles/densecrf.dir/permutohedral.cpp.o.requires
@@ -123,17 +123,17 @@ src/CMakeFiles/densecrf.dir/permutohedral.cpp.o.provides.build: src/CMakeFiles/d
 
 src/CMakeFiles/densecrf.dir/densecrf.cpp.o: src/CMakeFiles/densecrf.dir/flags.make
 src/CMakeFiles/densecrf.dir/densecrf.cpp.o: ../src/densecrf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/densecrf.dir/densecrf.cpp.o"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/densecrf.cpp.o -c /home/odyssey/project/densecrf/src/densecrf.cpp
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/densecrf.cpp.o -c /home/odyssey/project/crf_detection/src/densecrf.cpp
 
 src/CMakeFiles/densecrf.dir/densecrf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/densecrf.dir/densecrf.cpp.i"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/densecrf/src/densecrf.cpp > CMakeFiles/densecrf.dir/densecrf.cpp.i
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/crf_detection/src/densecrf.cpp > CMakeFiles/densecrf.dir/densecrf.cpp.i
 
 src/CMakeFiles/densecrf.dir/densecrf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/densecrf.dir/densecrf.cpp.s"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/densecrf/src/densecrf.cpp -o CMakeFiles/densecrf.dir/densecrf.cpp.s
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/crf_detection/src/densecrf.cpp -o CMakeFiles/densecrf.dir/densecrf.cpp.s
 
 src/CMakeFiles/densecrf.dir/densecrf.cpp.o.requires:
 .PHONY : src/CMakeFiles/densecrf.dir/densecrf.cpp.o.requires
@@ -146,17 +146,17 @@ src/CMakeFiles/densecrf.dir/densecrf.cpp.o.provides.build: src/CMakeFiles/densec
 
 src/CMakeFiles/densecrf.dir/filter.cpp.o: src/CMakeFiles/densecrf.dir/flags.make
 src/CMakeFiles/densecrf.dir/filter.cpp.o: ../src/filter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/densecrf.dir/filter.cpp.o"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/filter.cpp.o -c /home/odyssey/project/densecrf/src/filter.cpp
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/densecrf.dir/filter.cpp.o -c /home/odyssey/project/crf_detection/src/filter.cpp
 
 src/CMakeFiles/densecrf.dir/filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/densecrf.dir/filter.cpp.i"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/densecrf/src/filter.cpp > CMakeFiles/densecrf.dir/filter.cpp.i
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/crf_detection/src/filter.cpp > CMakeFiles/densecrf.dir/filter.cpp.i
 
 src/CMakeFiles/densecrf.dir/filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/densecrf.dir/filter.cpp.s"
-	cd /home/odyssey/project/densecrf/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/densecrf/src/filter.cpp -o CMakeFiles/densecrf.dir/filter.cpp.s
+	cd /home/odyssey/project/crf_detection/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/crf_detection/src/filter.cpp -o CMakeFiles/densecrf.dir/filter.cpp.s
 
 src/CMakeFiles/densecrf.dir/filter.cpp.o.requires:
 .PHONY : src/CMakeFiles/densecrf.dir/filter.cpp.o.requires
@@ -186,8 +186,8 @@ src/libdensecrf.a: src/CMakeFiles/densecrf.dir/filter.cpp.o
 src/libdensecrf.a: src/CMakeFiles/densecrf.dir/build.make
 src/libdensecrf.a: src/CMakeFiles/densecrf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libdensecrf.a"
-	cd /home/odyssey/project/densecrf/build/src && $(CMAKE_COMMAND) -P CMakeFiles/densecrf.dir/cmake_clean_target.cmake
-	cd /home/odyssey/project/densecrf/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/densecrf.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/odyssey/project/crf_detection/build/src && $(CMAKE_COMMAND) -P CMakeFiles/densecrf.dir/cmake_clean_target.cmake
+	cd /home/odyssey/project/crf_detection/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/densecrf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/densecrf.dir/build: src/libdensecrf.a
@@ -201,10 +201,10 @@ src/CMakeFiles/densecrf.dir/requires: src/CMakeFiles/densecrf.dir/filter.cpp.o.r
 .PHONY : src/CMakeFiles/densecrf.dir/requires
 
 src/CMakeFiles/densecrf.dir/clean:
-	cd /home/odyssey/project/densecrf/build/src && $(CMAKE_COMMAND) -P CMakeFiles/densecrf.dir/cmake_clean.cmake
+	cd /home/odyssey/project/crf_detection/build/src && $(CMAKE_COMMAND) -P CMakeFiles/densecrf.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/densecrf.dir/clean
 
 src/CMakeFiles/densecrf.dir/depend:
-	cd /home/odyssey/project/densecrf/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odyssey/project/densecrf /home/odyssey/project/densecrf/src /home/odyssey/project/densecrf/build /home/odyssey/project/densecrf/build/src /home/odyssey/project/densecrf/build/src/CMakeFiles/densecrf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odyssey/project/crf_detection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odyssey/project/crf_detection /home/odyssey/project/crf_detection/src /home/odyssey/project/crf_detection/build /home/odyssey/project/crf_detection/build/src /home/odyssey/project/crf_detection/build/src/CMakeFiles/densecrf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/densecrf.dir/depend
 

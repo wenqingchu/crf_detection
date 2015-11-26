@@ -4,14 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/odyssey/project/densecrf/examples/dense_inference.cpp" "/home/odyssey/project/densecrf/build/examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o"
-  "/home/odyssey/project/densecrf/examples/util.cpp" "/home/odyssey/project/densecrf/build/examples/CMakeFiles/dense_inference.dir/util.cpp.o"
+  "/home/odyssey/project/crf_detection/examples/dense_inference.cpp" "/home/odyssey/project/crf_detection/build/examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o"
+  "/home/odyssey/project/crf_detection/examples/util.cpp" "/home/odyssey/project/crf_detection/build/examples/CMakeFiles/dense_inference.dir/util.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/odyssey/project/densecrf/build/src/CMakeFiles/densecrf.dir/DependInfo.cmake"
+  "/home/odyssey/project/crf_detection/build/src/CMakeFiles/densecrf.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

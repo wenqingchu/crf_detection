@@ -12,23 +12,23 @@ vector
 cstdlib
 -
 
-/home/odyssey/project/densecrf/examples/dense_inference.cpp
+/home/odyssey/project/crf_detection/examples/dense_inference.cpp
 densecrf.h
-/home/odyssey/project/densecrf/examples/densecrf.h
+/home/odyssey/project/crf_detection/examples/densecrf.h
 cstdio
 -
 cmath
 -
 util.h
-/home/odyssey/project/densecrf/examples/util.h
+/home/odyssey/project/crf_detection/examples/util.h
 
-/home/odyssey/project/densecrf/examples/util.cpp
+/home/odyssey/project/crf_detection/examples/util.cpp
 util.h
-/home/odyssey/project/densecrf/examples/util.h
+/home/odyssey/project/crf_detection/examples/util.h
 cstdio
 -
 cstring
 -
 
-/home/odyssey/project/densecrf/examples/util.h
+/home/odyssey/project/crf_detection/examples/util.h
 

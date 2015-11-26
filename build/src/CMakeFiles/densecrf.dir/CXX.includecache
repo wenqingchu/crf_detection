@@ -12,43 +12,43 @@ vector
 cstdlib
 -
 
-/home/odyssey/project/densecrf/src/bipartitedensecrf.cpp
+/home/odyssey/project/crf_detection/src/bipartitedensecrf.cpp
 densecrf.h
-/home/odyssey/project/densecrf/src/densecrf.h
+/home/odyssey/project/crf_detection/src/densecrf.h
 util.h
-/home/odyssey/project/densecrf/src/util.h
+/home/odyssey/project/crf_detection/src/util.h
 
-/home/odyssey/project/densecrf/src/densecrf.cpp
+/home/odyssey/project/crf_detection/src/densecrf.cpp
 densecrf.h
-/home/odyssey/project/densecrf/src/densecrf.h
+/home/odyssey/project/crf_detection/src/densecrf.h
 fastmath.h
-/home/odyssey/project/densecrf/src/fastmath.h
+/home/odyssey/project/crf_detection/src/fastmath.h
 permutohedral.h
-/home/odyssey/project/densecrf/src/permutohedral.h
+/home/odyssey/project/crf_detection/src/permutohedral.h
 util.h
-/home/odyssey/project/densecrf/src/util.h
+/home/odyssey/project/crf_detection/src/util.h
 cmath
 -
 cstring
 -
 
-/home/odyssey/project/densecrf/src/fastmath.h
+/home/odyssey/project/crf_detection/src/fastmath.h
 xmmintrin.h
 -
 sse_defs.h
-/home/odyssey/project/densecrf/src/sse_defs.h
+/home/odyssey/project/crf_detection/src/sse_defs.h
 
-/home/odyssey/project/densecrf/src/filter.cpp
+/home/odyssey/project/crf_detection/src/filter.cpp
 permutohedral.h
-/home/odyssey/project/densecrf/src/permutohedral.h
+/home/odyssey/project/crf_detection/src/permutohedral.h
 densecrf.h
-/home/odyssey/project/densecrf/src/densecrf.h
+/home/odyssey/project/crf_detection/src/densecrf.h
 
-/home/odyssey/project/densecrf/src/permutohedral.cpp
+/home/odyssey/project/crf_detection/src/permutohedral.cpp
 permutohedral.h
-/home/odyssey/project/densecrf/src/permutohedral.h
+/home/odyssey/project/crf_detection/src/permutohedral.h
 
-/home/odyssey/project/densecrf/src/permutohedral.h
+/home/odyssey/project/crf_detection/src/permutohedral.h
 cstdlib
 -
 cstring
@@ -66,21 +66,21 @@ xmmintrin.h
 smmintrin.h
 -
 
-/home/odyssey/project/densecrf/src/sse_defs.h
+/home/odyssey/project/crf_detection/src/sse_defs.h
 mmintrin.h
 -
 
-/home/odyssey/project/densecrf/src/util.cpp
+/home/odyssey/project/crf_detection/src/util.cpp
 util.h
-/home/odyssey/project/densecrf/src/util.h
+/home/odyssey/project/crf_detection/src/util.h
 cstring
 -
 
-/home/odyssey/project/densecrf/src/util.h
+/home/odyssey/project/crf_detection/src/util.h
 densecrf.h
-/home/odyssey/project/densecrf/src/densecrf.h
+/home/odyssey/project/crf_detection/src/densecrf.h
 permutohedral.h
-/home/odyssey/project/densecrf/src/permutohedral.h
+/home/odyssey/project/crf_detection/src/permutohedral.h
 emmintrin.h
 -
 xmmintrin.h

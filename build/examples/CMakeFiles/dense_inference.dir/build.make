@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odyssey/project/densecrf
+CMAKE_SOURCE_DIR = /home/odyssey/project/crf_detection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odyssey/project/densecrf/build
+CMAKE_BINARY_DIR = /home/odyssey/project/crf_detection/build
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/dense_inference.dir/depend.make
@@ -54,17 +54,17 @@ include examples/CMakeFiles/dense_inference.dir/flags.make
 
 examples/CMakeFiles/dense_inference.dir/util.cpp.o: examples/CMakeFiles/dense_inference.dir/flags.make
 examples/CMakeFiles/dense_inference.dir/util.cpp.o: ../examples/util.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object examples/CMakeFiles/dense_inference.dir/util.cpp.o"
-	cd /home/odyssey/project/densecrf/build/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dense_inference.dir/util.cpp.o -c /home/odyssey/project/densecrf/examples/util.cpp
+	cd /home/odyssey/project/crf_detection/build/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dense_inference.dir/util.cpp.o -c /home/odyssey/project/crf_detection/examples/util.cpp
 
 examples/CMakeFiles/dense_inference.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dense_inference.dir/util.cpp.i"
-	cd /home/odyssey/project/densecrf/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/densecrf/examples/util.cpp > CMakeFiles/dense_inference.dir/util.cpp.i
+	cd /home/odyssey/project/crf_detection/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/crf_detection/examples/util.cpp > CMakeFiles/dense_inference.dir/util.cpp.i
 
 examples/CMakeFiles/dense_inference.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dense_inference.dir/util.cpp.s"
-	cd /home/odyssey/project/densecrf/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/densecrf/examples/util.cpp -o CMakeFiles/dense_inference.dir/util.cpp.s
+	cd /home/odyssey/project/crf_detection/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/crf_detection/examples/util.cpp -o CMakeFiles/dense_inference.dir/util.cpp.s
 
 examples/CMakeFiles/dense_inference.dir/util.cpp.o.requires:
 .PHONY : examples/CMakeFiles/dense_inference.dir/util.cpp.o.requires
@@ -77,17 +77,17 @@ examples/CMakeFiles/dense_inference.dir/util.cpp.o.provides.build: examples/CMak
 
 examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o: examples/CMakeFiles/dense_inference.dir/flags.make
 examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o: ../examples/dense_inference.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/densecrf/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odyssey/project/crf_detection/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o"
-	cd /home/odyssey/project/densecrf/build/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dense_inference.dir/dense_inference.cpp.o -c /home/odyssey/project/densecrf/examples/dense_inference.cpp
+	cd /home/odyssey/project/crf_detection/build/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dense_inference.dir/dense_inference.cpp.o -c /home/odyssey/project/crf_detection/examples/dense_inference.cpp
 
 examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dense_inference.dir/dense_inference.cpp.i"
-	cd /home/odyssey/project/densecrf/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/densecrf/examples/dense_inference.cpp > CMakeFiles/dense_inference.dir/dense_inference.cpp.i
+	cd /home/odyssey/project/crf_detection/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odyssey/project/crf_detection/examples/dense_inference.cpp > CMakeFiles/dense_inference.dir/dense_inference.cpp.i
 
 examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dense_inference.dir/dense_inference.cpp.s"
-	cd /home/odyssey/project/densecrf/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/densecrf/examples/dense_inference.cpp -o CMakeFiles/dense_inference.dir/dense_inference.cpp.s
+	cd /home/odyssey/project/crf_detection/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odyssey/project/crf_detection/examples/dense_inference.cpp -o CMakeFiles/dense_inference.dir/dense_inference.cpp.s
 
 examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o.requires:
 .PHONY : examples/CMakeFiles/dense_inference.dir/dense_inference.cpp.o.requires
@@ -112,7 +112,7 @@ examples/dense_inference: examples/CMakeFiles/dense_inference.dir/build.make
 examples/dense_inference: src/libdensecrf.a
 examples/dense_inference: examples/CMakeFiles/dense_inference.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable dense_inference"
-	cd /home/odyssey/project/densecrf/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dense_inference.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/odyssey/project/crf_detection/build/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dense_inference.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/dense_inference.dir/build: examples/dense_inference
@@ -123,10 +123,10 @@ examples/CMakeFiles/dense_inference.dir/requires: examples/CMakeFiles/dense_infe
 .PHONY : examples/CMakeFiles/dense_inference.dir/requires
 
 examples/CMakeFiles/dense_inference.dir/clean:
-	cd /home/odyssey/project/densecrf/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/dense_inference.dir/cmake_clean.cmake
+	cd /home/odyssey/project/crf_detection/build/examples && $(CMAKE_COMMAND) -P CMakeFiles/dense_inference.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/dense_inference.dir/clean
 
 examples/CMakeFiles/dense_inference.dir/depend:
-	cd /home/odyssey/project/densecrf/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odyssey/project/densecrf /home/odyssey/project/densecrf/examples /home/odyssey/project/densecrf/build /home/odyssey/project/densecrf/build/examples /home/odyssey/project/densecrf/build/examples/CMakeFiles/dense_inference.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odyssey/project/crf_detection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odyssey/project/crf_detection /home/odyssey/project/crf_detection/examples /home/odyssey/project/crf_detection/build /home/odyssey/project/crf_detection/build/examples /home/odyssey/project/crf_detection/build/examples/CMakeFiles/dense_inference.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/dense_inference.dir/depend
 
