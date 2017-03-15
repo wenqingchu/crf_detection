@@ -1,1 +1,0 @@
-/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/dense_inference.dir/util.cpp.o CMakeFiles/dense_inference.dir/dense_inference.cpp.o  -o dense_inference -rdynamic ../src/libdensecrf.a 
